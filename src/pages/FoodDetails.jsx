@@ -118,7 +118,7 @@ const FoodDetails = () => {
                   className={` ${tab === "rev" ? "tab__active" : ""}`}
                   onClick={() => setTab("rev")}
                 >
-                  Review
+                  Reseñas
                 </h6>
               </div>
 
@@ -128,22 +128,11 @@ const FoodDetails = () => {
                 </div>
               ) : (
                 <div className="tab__form mb-3">
-                  <div className="review pt-5">
-                    <p className="user__name mb-0">Jhon Doe</p>
-                    <p className="user__email">jhon1@gmail.com</p>
-                    <p className="feedback__text">great product</p>
-                  </div>
 
                   <div className="review">
                     <p className="user__name mb-0">Jhon Doe</p>
                     <p className="user__email">jhon1@gmail.com</p>
-                    <p className="feedback__text">great product</p>
-                  </div>
-
-                  <div className="review">
-                    <p className="user__name mb-0">Jhon Doe</p>
-                    <p className="user__email">jhon1@gmail.com</p>
-                    <p className="feedback__text">great product</p>
+                    <p className="feedback__text">Buen producto, me encanta el diseño y la creatividad que hay dtras de el!</p>
                   </div>
                   <form className="form" onSubmit={submitHandler}>
                     <div className="form__group">
@@ -168,7 +157,7 @@ const FoodDetails = () => {
                       <textarea
                         rows={5}
                         type="text"
-                        placeholder="Write your review"
+                        placeholder="Escribe tu reseña"
                         onChange={(e) => setReviewMsg(e.target.value)}
                         required
                       />
