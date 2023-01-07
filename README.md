@@ -39,4 +39,8 @@ The first component that we must take into account is the header, this is integr
 
 ![image](https://user-images.githubusercontent.com/114700033/211135291-32fa62d9-30f6-40d1-a0ca-728abde26239.png)
 
+At a general level and to summarize the architecture and not to extend myself, the Header.jsx and Home.jsx components are managed, each one complements and complements other components within the project depending on the functionality that is being applied or the objective that we want to fulfill.
+
+
+
 
