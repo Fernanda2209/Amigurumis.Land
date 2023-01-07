@@ -94,14 +94,14 @@ const FoodDetails = () => {
                 <h2 className="product__title mb-3">{title}</h2>
                 <p className="product__price">
                   {" "}
-                  Price: <span>${price}</span>
+                  Precio: <span>${price}</span>
                 </p>
                 <p className="category mb-5">
-                  Category: <span>{category}</span>
+                  Categoria: <span>{category}</span>
                 </p>
 
                 <button onClick={addItem} className="addTOCart__btn">
-                  Add to Cart
+                  Añadir al carrito
                 </button>
               </div>
             </Col>
@@ -112,7 +112,7 @@ const FoodDetails = () => {
                   className={` ${tab === "desc" ? "tab__active" : ""}`}
                   onClick={() => setTab("desc")}
                 >
-                  Description
+                  Descripcion
                 </h6>
                 <h6
                   className={` ${tab === "rev" ? "tab__active" : ""}`}
@@ -183,7 +183,7 @@ const FoodDetails = () => {
             </Col>
 
             <Col lg="12" className="mb-5 mt-4">
-              <h2 className="related__Product-title">You might also like</h2>
+              <h2 className="related__Product-title">También te podría interesar</h2>
             </Col>
 
             {relatedProduct.map((item) => (
