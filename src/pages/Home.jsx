@@ -254,8 +254,6 @@ const Home = () => {
                 ¿Por qué <span>Amigurumis Land?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                Los amigurumis son una forma perfecta de demostrar tu amor y cariño por alguien.
-                 Un amigurumi hecho a mano es un regalo especial y significativo que siempre será apreciado!  <br />
                  Además de las razones que ya te hemos mencionado también debes tener en cuenta que al comprar en Amigurumis Land
                 </p>
 
