@@ -18,9 +18,9 @@ import featureImg03 from "../assets/images/service-03.png";
 
 import products from "../assets/fake-data/products.js";
 
-import foodCategoryImg01 from "../assets/images/hamburger.png";
-import foodCategoryImg02 from "../assets/images/pizza.png";
-import foodCategoryImg03 from "../assets/images/bread.png";
+import foodCategoryImg01 from "../assets/images/Osito.png";
+import foodCategoryImg02 from "../assets/images/Loki.png";
+import foodCategoryImg03 from "../assets/images/Llavero.png";
 
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 
@@ -198,7 +198,7 @@ const Home = () => {
                   } `}
                   onClick={() => setCategory("ALL")}
                 >
-                  Todo
+                  Todos
                 </button>
                 <button
                   className={`d-flex align-items-center gap-2 ${
