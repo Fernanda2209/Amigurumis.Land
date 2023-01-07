@@ -34,7 +34,76 @@ const Checkout = () => {
     shippingInfo.push(userShippingAddress);
     console.log(shippingInfo);
   };
+  function finalizarCompra(){
+    let perfil = JSON.parse(localStorage.getItem('cartItems'))
+    let productosParaWsp = perfil
+    let arraylength = productosParaWsp.length
+    
+    let today = new Date();
+    let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    let print;
+    let cadena;
+    //logic to create the string
+    if (arraylength>0){
+    cadena=JSON.stringify(productosParaWsp[0].quantity)+" "+JSON.stringify(productosParaWsp[0].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[0].totalPrice)+'*%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[0].price)+'%0A'
+    }
+    else{
+      cadena='no hay productos'
+    }
 
+
+    if (arraylength>1){
+      cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[1].quantity)+" "+JSON.stringify(productosParaWsp[1].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[1].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[1].price)+'%0A'}
+    else{cadena=cadena+""}
+
+
+    if (arraylength>2) {cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[2].quantity)+" "+JSON.stringify(productosParaWsp[2].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[2].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[2].price)+'%0A'}
+    else{cadena=cadena+""}
+    
+    
+    if (arraylength>3){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[3].quantity)+" "+JSON.stringify(productosParaWsp[3].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[3].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[3].price)+'%0A'}
+    else{cadena=cadena+""}
+    
+    
+    if (arraylength>4){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[4].quantity)+" "+JSON.stringify(productosParaWsp[4].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[4].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[4].price)+'%0A'}
+    else{cadena=cadena+""}
+    
+
+    if (arraylength>5){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[5].quantity)+" "+JSON.stringify(productosParaWsp[5].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[5].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[5].price)+'%0A'}
+    else{cadena=cadena+""}
+
+
+    if (arraylength>6){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[6].quantity)+" "+JSON.stringify(productosParaWsp[6].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[6].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[6].price)+'%0A'}
+    else{cadena=cadena+""}
+
+    
+    if (arraylength>7){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[7].quantity)+" "+JSON.stringify(productosParaWsp[7].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[7].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[7].price)+'%0A'}
+    else{cadena=cadena+""}
+
+
+    if (arraylength>8){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[8].quantity)+" "+JSON.stringify(productosParaWsp[8].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[8].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[8].price)+'%0A'}
+    else{cadena=cadena+""}
+
+
+    if (arraylength>9){cadena=cadena+
+      '%0A-%20'+"x"+JSON.stringify(productosParaWsp[9].quantity)+" "+JSON.stringify(productosParaWsp[9].title)+'%20😊%20%24%20'+JSON.stringify(productosParaWsp[9].totalPrice)+'%0A%20%20Precio%20unitario%20%24%20'+JSON.stringify(productosParaWsp[9].price)+'%0A'}
+    else{cadena=cadena+""}
+
+
+    print =window.location.href = 
+    'https://api.whatsapp.com/send?phone=573025161911&text=%0A%20Bienvenido a Amigurumis Land%20Envíanos tu nombre, tu ubicación o dirección y tu método de pago en un mensaje para coordinar el proceso de tu compra, por favor.%0A%20%0A'+'%0A%20%2C%20%20de%20*%20*%0A🗓'+(date)+'⏰%20'+(time)+'%0A%0A*Tipo%20de%20servicio%3A%20Domicilio*%0A'+'💲%20Costos%0ACosto%20de%20entrega%3A%20Monto%20por%20confirmar%0A*Total%20a%20pagar%3A%20%24%20'+totalAmount +''+ '%0A%20⚠️%20'+'%0A*%20Resumen de Compra:*%0A%0A-%20*x'+
+    cadena 
+    
+  }
   return (
     <Helmet title="Pago y confirmacion">
       <CommonSection title="Confirmacion del pedido" />
@@ -56,7 +125,7 @@ const Checkout = () => {
                   </h5>
                 </div>
                 <br />
-                <button type="submit" className="addTOCart__btn">
+                <button onClick={finalizarCompra} type="submit" className="addTOCart__btn">
                   Confirmar Pedido
                 </button>
               </div>
