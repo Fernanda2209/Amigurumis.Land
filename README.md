@@ -16,4 +16,12 @@ As a first step we create the repository in which we are currently working, like
 
 ![image](https://user-images.githubusercontent.com/114700033/211134847-deeb83cf-2273-4886-b602-fe596f1a51b9.png)
 
+In it we have some of the base files that were useful to us in the development process, The following is a breakdown of the architecture and the changes that have been made
+
+#### Public
+---
+
+![image](https://user-images.githubusercontent.com/114700033/211134987-d8794b29-d825-4525-85d0-d8e6a7ecd35e.png)
+
+Within Index the only modification that the code was involved in is the change of the link for the logo icon and the change of the page name.
 
