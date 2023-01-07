@@ -100,7 +100,7 @@ const Checkout = () => {
 
 
     print =window.location.href = 
-    'https://api.whatsapp.com/send?phone=573025161911&text=%0A%20Bienvenido a Amigurumis Land%0A%20Envíanos tu nombre, tu ubicación o dirección y tu método de pago en un mensaje para coordinar el proceso de tu compra, por favor.%0A%20%0A'+'%0A%20%2C%20%20de%20*%20*%0A🗓'+'%0A%0A%20de%20%3A%20*%0A'+'💲%20Costos%0ACosto%20de%20entrega%3A%20Monto%20por%20confirmar%0A*Total%20a%20pagar%3A%20%24%20'+totalAmount +''+ '%0A%20⚠️%20'+'%0A*%20Resumen de Compra:*%0A%0A-%20*x'+
+    'https://api.whatsapp.com/send?phone=573025161911&text=%0A%20Bienvenido a Amigurumis Land%0A%20Envíanos tu nombre, tu ubicación o dirección y tu método de pago en un mensaje para coordinar el proceso de tu compra, por favor.%0A%20%0A'+'💲%20Costos%0ACosto%20de%20entrega%3A%20Monto%20por%20confirmar%0A*Total%20a%20pagar%3A%20%24%20'+totalAmount +''+ '%0A%20⚠️%20'+'%0A*%20Resumen de Compra:*%0A%0A-%20*x'+
     cadena 
     
   }
