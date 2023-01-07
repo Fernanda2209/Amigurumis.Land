@@ -32,20 +32,20 @@ import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
 const featureData = [
   {
-    title: "Quick Delivery",
+    title: "Servicio de personalizacion",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Todos los diseños que encuentres en esta pagina son 100% personalizables, asi mismo no dudes en enviarnos tus ideas, las haermos realidad!",
   },
 
   {
-    title: "Super Dine In",
+    title: "Cortos tiempos de espera",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Como sabras cada pieza es unica y elaborada a mano por lo que los tiempos varian dependiendo del tamaño y complejidad aun asi estamos dispuestos a entregar tus productos en el menor tiempo posible",
   },
   {
-    title: "Easy Pick Up",
+    title: "Envios a nivel nacional",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Estamos ampliando nuestros horizontes, ahora tenemos envios a nivel nacional, que la distancia no te detenga a comprar magia artesanal",
   },
 ];
 
@@ -187,7 +187,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2>Popular Foods</h2>
+              <h2>Productos</h2>
             </Col>
 
             <Col lg="12">
