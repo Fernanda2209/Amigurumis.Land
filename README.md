@@ -50,6 +50,11 @@ At a general level and to summarize the architecture and not to extend myself, t
 
 Another fundamental section within the operation of the code are the products, the same are defined within the prodcucts.js file in which their respective are imported and stored in a variable that will be used to display them, the product has 6 unique values or information that belongs only to it, this being the Id of the product stipulated by a number from 1 to 12 in this case the number of total products, the item name, price, reference image, the category to which it belongs and the description of the same.
 
+The componenents are distributed as follows
+
+![image](https://user-images.githubusercontent.com/114700033/211154960-feb8287a-8357-4e40-b3f8-d2f1d3a814e4.png)
+
+
 
 
 
