@@ -16,7 +16,7 @@ const products = [
   {
     id: "01",
     title: "Patico con sombrero",
-    price: 16.0,
+    price: 16000.0,
     image01: product_01_image_01,
     category: "Animales",
 
@@ -26,7 +26,7 @@ const products = [
   {
     id: "02",
     title: "Osito",
-    price: 115.0,
+    price: 15000.0,
     image01: product_02_Osito,
     category: "Llavero",
 
@@ -36,7 +36,7 @@ const products = [
   {
     id: "03",
     title: "Cabrita Baphomet",
-    price: 110.0,
+    price: 55000.0,
     image01: product_03_Baphomet,
     category: "Animales",
 
@@ -46,7 +46,7 @@ const products = [
   {
     id: "04",
     title: "Merida",
-    price: 110.0,
+    price: 75000.0,
     image01: product_04_Merida,
     category: "Funkos",
 
@@ -56,7 +56,7 @@ const products = [
   {
     id: "05",
     title: "Loki",
-    price: 24.0,
+    price: 75000.0,
     image01: product_05_Loki,
     category: "Funkos",
 
@@ -65,7 +65,7 @@ const products = [
   {
     id: "06",
     title: "Triceratops",
-    price: 24.0,
+    price: 60000.0,
     image01:product_05_Triceratops,
     
     category: "Animales",
@@ -76,7 +76,7 @@ const products = [
   {
     id: "07",
     title: "Oso Panda",
-    price: 115.0,
+    price: 65000.0,
     image01:product_06_OsoPanda,
     
     category: "Animales",
@@ -87,7 +87,7 @@ const products = [
   {
     id: "08",
     title: "Elefante",
-    price: 110.0,
+    price: 55000.0,
     image01: product_07_Elefante,
     category: "Animales",
 
@@ -97,7 +97,7 @@ const products = [
   {
     id: "09",
     title: "Medusa",
-    price: 110.0,
+    price: 45000.0,
     image01: product_08_Medusa,
     category: "Animales",
 
@@ -107,7 +107,7 @@ const products = [
   {
     id: "10",
     title: "Minion",
-    price: 24.0,
+    price: 18000.0,
     image01: product_10_Minion,
     category: "Llavero",
 
@@ -116,9 +116,9 @@ const products = [
 
   {
     id: "11",
-    title: "Raton ",
+    title: "Ratón ",
     image01: product_11_Raton,
-    price: 35.0,
+    price: 15000.0,
     
     category: "Llavero",
 
@@ -128,7 +128,7 @@ const products = [
   {
     id: "12",
     title: "Gatito con bufanda ",
-    price: 35.0,
+    price: 17000.0,
     image01:product_12_Gatito,
     category: "Animales",
 

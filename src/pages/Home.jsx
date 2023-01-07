@@ -100,7 +100,7 @@ const Home = () => {
               <div className="hero__content  ">
                 <h5 className="mb-3">¡El regalo perfecto para cualquier ocasión!</h5>
                 <h1 className="mb-4 hero__title">
-                  <span>Los amigurumis</span> son como magia hecha crochet <br /> cobran vida a traves
+                  <span>Los amigurumis</span> son como magia hecha crochet <br /> cobran vida a través
                   <span> de mis manos</span>
                 </h1>
 

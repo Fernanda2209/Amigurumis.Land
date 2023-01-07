@@ -101,7 +101,7 @@ const FoodDetails = () => {
                 </p>
 
                 <button onClick={addItem} className="addTOCart__btn">
-                  Añadir al carrito
+                  Añadir
                 </button>
               </div>
             </Col>
@@ -164,7 +164,7 @@ const FoodDetails = () => {
                     </div>
 
                     <button type="submit" className="addTOCart__btn">
-                      Submit
+                      Enviar
                     </button>
                   </form>
                 </div>
