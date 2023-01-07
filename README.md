@@ -41,6 +41,14 @@ The first component that we must take into account is the header, this is integr
 
 At a general level and to summarize the architecture and not to extend myself, the Header.jsx and Home.jsx components are managed, each one complements and complements other components within the project depending on the functionality that is being applied or the objective that we want to fulfill.
 
+![image](https://user-images.githubusercontent.com/114700033/211153627-c4275f97-97f1-4501-b18d-ba270a435bd6.png)
+
+![image](https://user-images.githubusercontent.com/114700033/211153866-47932701-f468-4db2-8f29-767dc93f5aaa.png)
+
+
+
+Another fundamental section within the operation of the code are the products, the same are defined within the prodcucts.js file in which their respective are imported and stored in a variable that will be used to display them, the product has 6 unique values or information that belongs only to it, this being the Id of the product stipulated by a number from 1 to 12 in this case the number of total products, the item name, price, reference image, the category to which it belongs and the description of the same.
+
 
 
 
