@@ -1,6 +1,5 @@
 {
   "name": "ecommerce-website-1",
-  "homepage": "https://github.com/Fernanda2209/Amigurumis.Land",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,9 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "build": "react-scripts --openssl-legacy-provider build"
+    
   },
   "eslintConfig": {
     "extends": [
