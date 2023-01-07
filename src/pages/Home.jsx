@@ -26,7 +26,7 @@ import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 
 import whyImg from "../assets/images/location.png";
 
-import networkImg from "../assets/images/network.png";
+import networkImg from "../assets/images/network.jpg";
 
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
@@ -320,14 +320,12 @@ const Home = () => {
           <Row>
             <Col lg="6" md="6">
               <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
+                <h5 className="testimonial__subtitle mb-4">Testimonios</h5>
                 <h2 className="testimonial__title mb-4">
-                  What our <span>customers</span> are saying
+                ¿Qué dicen nuestros <span>clientes?</span>
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                  Estas son algunas reseñas que hemos recibido por parte de las personas que han decidido confiar en nuestro trabajo!
                 </p>
 
                 <TestimonialSlider />
