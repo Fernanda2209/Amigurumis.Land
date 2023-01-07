@@ -212,7 +212,7 @@ const Home = () => {
 
                 <button
                   className={`d-flex align-items-center gap-2 ${
-                    category === "PIZZA" ? "foodBtnActive" : ""
+                    category === "FUNKOS" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("FUNKOS")}
                 >
