@@ -41,7 +41,7 @@ const AllFoods = () => {
   };
 
   return (
-    <Helmet title="All-Foods">
+    <Helmet title="Productos">
       <CommonSection title="Todas las categorias" />
 
       <section>

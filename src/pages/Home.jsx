@@ -56,7 +56,7 @@ const Home = () => {
   const [hotPizza, setHotPizza] = useState([]);
 
   useEffect(() => {
-    const filteredPizza = products.filter((item) => item.category === "Funkos");
+    const filteredPizza = products.filter((item) => item.category === "pizza");
     const slicePizza = filteredPizza.slice(0, 4);
     setHotPizza(slicePizza);
   }, []);
@@ -92,7 +92,7 @@ const Home = () => {
   }, [category]);
 
   return (
-    <Helmet title="Home">
+    <Helmet title="Inicio">
       <section>
         <Container>
           <Row>

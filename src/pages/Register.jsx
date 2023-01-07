@@ -14,7 +14,7 @@ const Register = () => {
   };
 
   return (
-    <Helmet title="Signup">
+    <Helmet title="Registrate">
       <CommonSection title="Signup" />
       <section>
         <Container>
