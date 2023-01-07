@@ -24,7 +24,7 @@ import foodCategoryImg03 from "../assets/images/Llavero.png";
 
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 
-import whyImg from "../assets/images/location.png";
+import whyImg from "../assets/images/Why.jpg";
 
 import networkImg from "../assets/images/network.jpg";
 
@@ -245,51 +245,54 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="6" md="6">
-              <img src={whyImg} alt="why-tasty-treat" className="w-100" />
+              <img src={whyImg} alt="why-tasty-treat" className="w-100"  />
             </Col>
 
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span>Tasty Treat?</span>
+                ¿Por qué <span>Amigurumis Land?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                Los amigurumis son una forma perfecta de demostrar tu amor y cariño por alguien.
+                 Un amigurumi hecho a mano es un regalo especial y significativo que siempre será apreciado!  <br />
+                 Además de las razones que ya te hemos mencionado también debes tener en cuenta que al comprar en Amigurumis Land
                 </p>
 
                 <ListGroup className="mt-4">
                   <ListGroupItem className="border-0 ps-0">
                     <p className=" choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i> Fresh and tasty
-                      foods
+                      <i class="ri-checkbox-circle-line"></i> Apoyas a los pequeños emprendedores
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                    "Los pequeños negocios son la columna vertebral de nuestra economía. Apóyalos y ellos te apoyarán a ti."
                     </p>
                   </ListGroupItem>
 
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i> Quality support
+                      <i class="ri-checkbox-circle-line"></i>Inviertes en algo diferente{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      No muchas personas conocen sobre el hermoso mundo de los Amigurumis, estas regalando algo especial.
                     </p>
                   </ListGroupItem>
 
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i>Order from any
-                      location{" "}
+                      <i class="ri-checkbox-circle-line"></i> Pronto ofreceremos cursos{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                    Nuestros servicios se ampliarán, espera muchas cosas de nosotros este 2023, síguenos en redes sociales y no te pierdas de nada.
+                    </p>
+                  </ListGroupItem>
+
+                  <ListGroupItem className="border-0 ps-0">
+                    <p className="choose__us-title d-flex align-items-center gap-2 ">
+                      <i class="ri-checkbox-circle-line"></i> La variedad aumentará{" "}
+                    </p>
+                    <p className="choose__us-desc">
+                    ¡De la mano con las ideas de nuestros clientes estamos redirigiendo nuestro trabajo a la creación de nuevos amigurumis, no te lo puedes perder!
                     </p>
                   </ListGroupItem>
                 </ListGroup>
