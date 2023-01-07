@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import logo from "../../assets/images/res-logo.png";
+import logo from "../../assets/images/Logo.png";
 
 import "../../styles/footer.css";
 
@@ -14,48 +14,42 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              <h5>Amigurumis Land</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
+              Un emprendimiento que nace en la ciudad de la luna
               </p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Delivery Time</h5>
+            <h5 className="footer__title">Horario de atencion</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Sunday - Thursday</span>
-                <p>10:00am - 11:00pm</p>
-              </ListGroupItem>
-
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Friday - Saturday</span>
-                <p>Off day</p>
+                <span>Lunes - Domingo</span>
+                <p>9:00am - 7:00pm</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
 
           <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Contact</h5>
+            <h5 className="footer__title">Contacto</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Estamos ubicados en el minucipio de Chia, Cundinamarca</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
+                <span>Telefono: 3025161911</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Email: example@gmail.com</span>
+                <span>Gmail: amigurumis.land@gamil.com</span>
               </ListGroupItem>
             </ListGroup>
           </Col>
 
           <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Newsletter</h5>
-            <p>Subscribe our newsletter</p>
+            <h5 className="footer__title">Mas informacion</h5>
+            <p>Subscribete a nuestras redes sociales</p>
             <div className="newsletter">
               <input type="email" placeholder="Enter your email" />
               <span>
@@ -68,8 +62,8 @@ const Footer = () => {
         <Row className="mt-5">
           <Col lg="6" md="6">
             <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
-              Reserved.
+              Copyright - 2023. All Rights
+              Reserved. made by Maria Daza
             </p>
           </Col>
           <Col lg="6" md="6">
