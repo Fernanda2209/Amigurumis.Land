@@ -45,6 +45,7 @@ At a general level and to summarize the architecture and not to extend myself, t
 
 ![image](https://user-images.githubusercontent.com/114700033/211153866-47932701-f468-4db2-8f29-767dc93f5aaa.png)
 
+![image](https://user-images.githubusercontent.com/114700033/211154821-f86e5358-81b6-4caa-9587-a0a532b1c816.png)
 
 
 Another fundamental section within the operation of the code are the products, the same are defined within the prodcucts.js file in which their respective are imported and stored in a variable that will be used to display them, the product has 6 unique values or information that belongs only to it, this being the Id of the product stipulated by a number from 1 to 12 in this case the number of total products, the item name, price, reference image, the category to which it belongs and the description of the same.
