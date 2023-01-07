@@ -82,9 +82,9 @@ const Home = () => {
       setAllProducts(filteredProducts);
     }
 
-    if (category === "LLAVERO") {
+    if (category === "LLAVEROS") {
       const filteredProducts = products.filter(
-        (item) => item.category === "Llavero"
+        (item) => item.category === "LLaveros"
       );
 
       setAllProducts(filteredProducts);
@@ -214,7 +214,7 @@ const Home = () => {
                   className={`d-flex align-items-center gap-2 ${
                     category === "PIZZA" ? "foodBtnActive" : ""
                   } `}
-                  onClick={() => setCategory("PIZZA")}
+                  onClick={() => setCategory("FUNKOS")}
                 >
                   <img src={foodCategoryImg02} alt="" />
                   Funkos
@@ -224,10 +224,10 @@ const Home = () => {
                   className={`d-flex align-items-center gap-2 ${
                     category === "BREAD" ? "foodBtnActive" : ""
                   } `}
-                  onClick={() => setCategory("BREAD")}
+                  onClick={() => setCategory("LLAVEROS")}
                 >
                   <img src={foodCategoryImg03} alt="" />
-                  LLaveros
+                  Llaveros
                 </button>
               </div>
             </Col>

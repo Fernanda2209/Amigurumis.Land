@@ -28,7 +28,7 @@ const products = [
     title: "Osito",
     price: 15000.0,
     image01: product_02_Osito,
-    category: "Llavero",
+    category: "LLaveros",
 
     desc: "Este producto corresponde a un osito tipo llavero de aproximadamente 5 cm de altura, hecho a mano con mucho amor, con hilo extra fino de acrílico hipoalergénico, el producto puede ser personalizado dependiendo de los gustos del cliente.",
   },
@@ -109,7 +109,7 @@ const products = [
     title: "Minion",
     price: 18000.0,
     image01: product_10_Minion,
-    category: "Llavero",
+    category: "LLaveros",
 
     desc: "Este producto corresponde al poderoso e inigualable Bob en su version como villano y secuaz de Gru, el amigurumi mide aproximadamente 6cm cm de altura, hecho a mano con mucho amor, con hilo extra fino de acrílico hipoalergénico, el producto puede ser personalizado dependiendo de los gustos del cliente.",
   },
@@ -119,8 +119,7 @@ const products = [
     title: "Ratón ",
     image01: product_11_Raton,
     price: 15000.0,
-    
-    category: "Llavero",
+    category: "LLaveros",
 
     desc: "Este pequeño raton mide muy poco y es perfecto para usar como llavero, es la compañia perfecta y su perfecto tamaño y acabados te convenceran de esto , asi que no olvides que es hecho a mano con mucho amor, con hilo extra fino de acrílico hipoalergénico, el producto puede ser personalizado dependiendo de los gustos del cliente.",
   },
