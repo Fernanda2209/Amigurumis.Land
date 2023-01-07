@@ -33,7 +33,7 @@ const products = [
     image03: product_01_image_03,
     category: "Burger",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+    desc: "Este producto corresponde a un patico de aproximadamente 7 cm de altura, hecho a mano con mucho amor, con hilo tanto de algodón como acrílico hipoalergénico, el producto puede ser personalizado dependiendo de los gustos del cliente.",
   },
 
   {

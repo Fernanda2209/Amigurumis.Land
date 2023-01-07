@@ -24,11 +24,11 @@ const Cart = () => {
                 <table className="table table-bordered">
                   <thead>
                     <tr>
-                      <th>Image</th>
-                      <th>Product Title</th>
-                      <th>Price</th>
-                      <th>Quantity</th>
-                      <th>Delete</th>
+                      <th>Imagen</th>
+                      <th>Nombre del Producto</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -75,7 +75,7 @@ const Tr = (props) => {
       </td>
       <td className="text-center">{title}</td>
       <td className="text-center">${price}</td>
-      <td className="text-center">{quantity}px</td>
+      <td className="text-center">{quantity}/u</td>
       <td className="text-center cart__item-del">
         <i class="ri-delete-bin-line" onClick={deleteItem}></i>
       </td>

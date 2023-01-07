@@ -47,7 +47,7 @@ const Checkout = () => {
                 <div className="form__group">
                   <input
                     type="text"
-                    placeholder="Enter your name"
+                    placeholder="Ingresa tu nombre"
                     required
                     onChange={(e) => setEnterName(e.target.value)}
                   />
@@ -56,7 +56,7 @@ const Checkout = () => {
                 <div className="form__group">
                   <input
                     type="email"
-                    placeholder="Enter your email"
+                    placeholder="Ingresa tu correo"
                     required
                     onChange={(e) => setEnterEmail(e.target.value)}
                   />

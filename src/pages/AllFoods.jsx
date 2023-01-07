@@ -82,8 +82,8 @@ const AllFoods = () => {
               <ReactPaginate
                 pageCount={pageCount}
                 onPageChange={changePage}
-                previousLabel={"Prev"}
-                nextLabel={"Next"}
+                previousLabel={"Previo"}
+                nextLabel={"Siguiente"}
                 containerClassName=" paginationBttns "
               />
             </div>
