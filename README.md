@@ -37,4 +37,6 @@ Src is the folder that contains most of the files and therefore is the one most 
 
 The first component that we must take into account is the header, this is integrated in the other sections of the page and is integrated in both Home and Header.
 
+![image](https://user-images.githubusercontent.com/114700033/211135291-32fa62d9-30f6-40d1-a0ca-728abde26239.png)
+
 
