@@ -29,9 +29,7 @@ const products = [
     title: "Patico con sombrero",
     price: 16.000,
     image01: product_01_image_01,
-    image02: product_01_image_02,
-    image03: product_01_image_03,
-    category: "Burger",
+    category: "Animales",
 
     desc: "Este producto corresponde a un patico de aproximadamente 7 cm de altura, hecho a mano con mucho amor, con hilo tanto de algodón como acrílico hipoalergénico, el producto puede ser personalizado dependiendo de los gustos del cliente.",
   },
@@ -43,19 +41,19 @@ const products = [
     image01: product_02_image_01,
     image02: product_02_image_02,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "03",
-    title: "Baphomet",
+    title: "Cabrita Baphomet",
     price: 110.0,
     image01: product_03_image_01,
     image02: product_03_image_02,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Animales, Llavero",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -67,7 +65,7 @@ const products = [
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "Funkos",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -79,7 +77,7 @@ const products = [
     image01: product_05_image_01,
     image02: product_05_image_02,
     image03: product_05_image_03,
-    category: "Burger",
+    category: "Funkos",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -102,7 +100,7 @@ const products = [
     image01: product_02_image_02,
     image02: product_02_image_01,
     image03: product_02_image_03,
-    category: "Pizza",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -114,7 +112,7 @@ const products = [
     image01: product_03_image_02,
     image02: product_03_image_01,
     image03: product_03_image_03,
-    category: "Pizza",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -126,7 +124,7 @@ const products = [
     image01: product_04_image_02,
     image02: product_04_image_01,
     image03: product_04_image_03,
-    category: "Pizza",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -150,7 +148,7 @@ const products = [
     image01: product_06_image_01,
     image02: product_06_image_02,
     image03: product_06_image_03,
-    category: "Bread",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -162,7 +160,7 @@ const products = [
     image01: product_06_image_02,
     image02: product_06_image_01,
     image03: product_06_image_03,
-    category: "Bread",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
@@ -174,7 +172,7 @@ const products = [
     image01: product_06_image_03,
     image02: product_06_image_02,
     image03: product_06_image_03,
-    category: "Bread",
+    category: "Animales",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },

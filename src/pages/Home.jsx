@@ -56,7 +56,7 @@ const Home = () => {
   const [hotPizza, setHotPizza] = useState([]);
 
   useEffect(() => {
-    const filteredPizza = products.filter((item) => item.category === "Pizza");
+    const filteredPizza = products.filter((item) => item.category === "Funkos");
     const slicePizza = filteredPizza.slice(0, 4);
     setHotPizza(slicePizza);
   }, []);
@@ -66,25 +66,25 @@ const Home = () => {
       setAllProducts(products);
     }
 
-    if (category === "BURGER") {
+    if (category === "ANIMALES") {
       const filteredProducts = products.filter(
-        (item) => item.category === "Burger"
+        (item) => item.category === "Animales"
       );
 
       setAllProducts(filteredProducts);
     }
 
-    if (category === "PIZZA") {
+    if (category === "FUNKOS") {
       const filteredProducts = products.filter(
-        (item) => item.category === "Pizza"
+        (item) => item.category === "Funkos"
       );
 
       setAllProducts(filteredProducts);
     }
 
-    if (category === "BREAD") {
+    if (category === "LLAVERO") {
       const filteredProducts = products.filter(
-        (item) => item.category === "Bread"
+        (item) => item.category === "Llavero"
       );
 
       setAllProducts(filteredProducts);
@@ -202,9 +202,9 @@ const Home = () => {
                 </button>
                 <button
                   className={`d-flex align-items-center gap-2 ${
-                    category === "BURGER" ? "foodBtnActive" : ""
+                    category === "ANIMALES" ? "foodBtnActive" : ""
                   } `}
-                  onClick={() => setCategory("BURGER")}
+                  onClick={() => setCategory("ANIMALES")}
                 >
                   <img src={foodCategoryImg01} alt="" />
                   Animales
