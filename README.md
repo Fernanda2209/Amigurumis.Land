@@ -31,3 +31,10 @@ Within Index the only modification that the code was involved in is the change o
 
 Src is the folder that contains most of the files and therefore is the one most frequently used.
 
+#### Components 
+---
+![image](https://user-images.githubusercontent.com/114700033/211135182-70d00031-b83e-4e17-8e65-43a3e7c8c70d.png)
+
+The first component that we must take into account is the header, this is integrated in the other sections of the page and is integrated in both Home and Header.
+
+
