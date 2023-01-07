@@ -54,6 +54,10 @@ The componenents are distributed as follows
 
 ![image](https://user-images.githubusercontent.com/114700033/211154960-feb8287a-8357-4e40-b3f8-d2f1d3a814e4.png)
 
+### 1.Footer
+---
+![image](https://user-images.githubusercontent.com/114700033/211166316-cff90bf9-450e-4b07-a29e-e2d3c9015317.png)
+
 
 
 
