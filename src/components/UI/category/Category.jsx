@@ -11,21 +11,21 @@ import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "Materiales de calidad",
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "Hechos con amor",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "Creaciones unicas",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Atencion personalizada y continua",
     imgUrl: categoryImg04,
   },
 ];

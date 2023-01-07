@@ -153,19 +153,17 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h5 className="feature__subtitle mb-4">What we serve</h5>
-              <h2 className="feature__title">Just sit back at home</h2>
+              <h5 className="feature__subtitle mb-4">¿Que hacemos?</h5>
+              <h2 className="feature__title">Tejemos con el corazón</h2>
               <h2 className="feature__title">
-                we will <span>take care</span>
+                transformamos tus <span>ideas en magia</span>
               </h2>
               <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
+              Los amigurumis son muñecos tejidos a mano. Crear uno implica elegir la técnica y <br />
+               el hilo adecuados, seguir un patrón y prestar atención al detalle. Es una actividad relajante <br />
+                y gratificante, pero también puede requerir mucha paciencia y atención al detalle.
               </p>
-              <p className="feature__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, eius.{" "}
-              </p>
+              
             </Col>
 
             {featureData.map((item, index) => (
