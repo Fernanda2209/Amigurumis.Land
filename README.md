@@ -18,10 +18,16 @@ As a first step we create the repository in which we are currently working, like
 
 In it we have some of the base files that were useful to us in the development process, The following is a breakdown of the architecture and the changes that have been made
 
-#### Public
+### Public
 ---
 
 ![image](https://user-images.githubusercontent.com/114700033/211134987-d8794b29-d825-4525-85d0-d8e6a7ecd35e.png)
 
 Within Index the only modification that the code was involved in is the change of the link for the logo icon and the change of the page name.
+
+### src
+---
+![image](https://user-images.githubusercontent.com/114700033/211135095-39d7cb1e-d46d-435b-be92-bb2f4d39f186.png)
+
+Src is the folder that contains most of the files and therefore is the one most frequently used.
 
