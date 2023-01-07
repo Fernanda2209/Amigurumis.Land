@@ -9,3 +9,11 @@ This is the technical documentation of this project and as it is expressed in th
 
 Based on the design approved by the client and thinking about the performance and optimization of time and folder management, the main components were identified and from this information the development of the project began at the programming level.
 
+As a first step we create the repository in which we are currently working, likewise we start a new project in react and delete the files that we are not going to use such as logos, etc.
+
+### General Structure
+---
+
+![image](https://user-images.githubusercontent.com/114700033/211134847-deeb83cf-2273-4886-b602-fe596f1a51b9.png)
+
+
