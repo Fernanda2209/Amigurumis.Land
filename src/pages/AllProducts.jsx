@@ -11,7 +11,7 @@ import ReactPaginate from "react-paginate";
 import "../styles/all-foods.css";
 import "../styles/pagination.css";
 
-const AllFoods = () => {
+const AllProducts = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const [pageNumber, setPageNumber] = useState(0);
@@ -27,7 +27,7 @@ const AllFoods = () => {
     }
   });
 
-  const productPerPage = 12;
+  const productPerPage = 10;
   const visitedPage = pageNumber * productPerPage;
   const displayPage = searchedProduct.slice(
     visitedPage,
@@ -94,4 +94,4 @@ const AllFoods = () => {
   );
 };
 
-export default AllFoods;
+export default AllProducts;

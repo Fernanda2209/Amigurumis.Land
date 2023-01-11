@@ -1,4 +1,5 @@
 // all images imported from images directory
+
 import product_01_image_01 from "../images/product_01-Patico.png";
 import product_02_Osito from "../images/Osito-product.jpeg";
 import product_03_Baphomet from "../images/Baphomet-product.jpeg";
@@ -11,6 +12,10 @@ import product_08_Medusa from "../images/Medusa-product.jpeg"
 import product_10_Minion from "../images/Minion-product.jpeg"
 import product_11_Raton from "../images/Raton-product.jpeg"
 import product_12_Gatito from "../images/Gatito-product.jpeg"
+
+
+// We have an array in which we are storing several objects that are equivalent 
+//to the customer's products with parameters to then use them accordingly.
 
 const products = [
   {
@@ -136,4 +141,4 @@ const products = [
 
 ];
 
-export default products;
+export default products; // Export the products component
