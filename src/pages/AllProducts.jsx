@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Helmet from "../components/Helmet/Helmet";
+import Helmet from "../components/Helmet/Helmet"; // Import the component Helmet 
 import CommonSection from "../components/UI/common-section/CommonSection";
 
 import { Container, Row, Col } from "reactstrap";

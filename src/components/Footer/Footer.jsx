@@ -1,15 +1,15 @@
 import React from "react";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import logo from "../../assets/images/Logo.png";
+import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap"; // We import specific styles from the reacstrap library to save code.
+import logo from "../../assets/images/Logo.png"; // Logo Image Amigurumis Land 
 
-import "../../styles/footer.css";
+import "../../styles/footer.css"; // Import Style of footer
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // We use the Link element to manipulate the routes within the application 
 
 const Footer = () => {
-  return (
+  return ( // We make use of the different elements and styles previously exported, and divide the fotter in different sections, in this case it is organized by columns
     <footer className="footer">
-      <Container>
+      <Container> 
         <Row>
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
@@ -35,7 +35,7 @@ const Footer = () => {
             <h5 className="footer__title">Contacto</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Estamos ubicados en el minucipio de Chia, Cundinamarca</p>
+                <p>Estamos ubicados en el municipio de Chia, Cundinamarca</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
                 <span>Telefono: 3025161911</span>
@@ -102,5 +102,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+// //  Create a container in general and inside it the footer components, making use of different elements
 
 export default Footer;
