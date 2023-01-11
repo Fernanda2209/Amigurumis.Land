@@ -23,7 +23,7 @@ const TestimonialSlider = () => {
       <div>
         <p className="review__text">
           "Hace poco recibi mi producto y solo tengo cosas buenas que compartir 
-          con uestes, la atencion por parte de Amigurumis Land fue fantastica, se 
+          con ustedes, la atencion por parte de Amigurumis Land fue fantastica, se 
           adaptaron a cada una de mis recomendaciones y me entregaron un producto 
           que cumplio con cada una de mis expectativas"
         </p>

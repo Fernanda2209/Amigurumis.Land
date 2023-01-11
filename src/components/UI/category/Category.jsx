@@ -25,7 +25,7 @@ const categoryData = [
   },
 
   {
-    display: "Atencion personalizada y continua",
+    display: "Atencion personalizada",
     imgUrl: categoryImg04,
   },
 ];

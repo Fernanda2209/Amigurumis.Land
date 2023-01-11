@@ -22,10 +22,7 @@ const nav__links = [
     display: "Carrito",
     path: "/cart",
   },
-  {
-    display: "Contacto",
-    path: "/contact",
-  },
+  
 ];
 
 const Header = () => {
