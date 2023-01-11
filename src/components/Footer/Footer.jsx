@@ -16,7 +16,7 @@ const Footer = () => {
               <img src={logo} alt="logo" />
               <h5>Amigurumis Land</h5>
               <p>
-              Un emprendimiento que nace en la ciudad de la luna
+              Un emprendimiento que nace en la ciudad de la Luna...
               </p>
             </div>
           </Col>
