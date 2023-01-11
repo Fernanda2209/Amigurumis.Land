@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap"; // We import specific styles from the reacstrap library to save code.
+import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap"; // We import specific elemtents and style from the reacstrap library to save code.
 import logo from "../../assets/images/Logo.png"; // Logo Image Amigurumis Land 
 
 import "../../styles/footer.css"; // Import Style of footer
@@ -50,12 +50,6 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <h5 className="footer__title">Más Información</h5>
             <p>Subscríbete a nuestras redes sociales</p>
-            <div className="newsletter">
-              <input type="email" placeholder="Ingresa tu correo" />
-              <span>
-                <i class="ri-send-plane-line"></i>
-              </span>
-            </div>
           </Col>
         </Row>
 

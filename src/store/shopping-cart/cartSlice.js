@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit"; // Import a element from redux.js
 
 const items =
   localStorage.getItem("cartItems") !== null
